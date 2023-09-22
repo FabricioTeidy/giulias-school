@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0px;
+  font-size: 35px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(224, 238, 142);
+}
+
+.nav-list{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 17px;
+    list-style: none
+}
