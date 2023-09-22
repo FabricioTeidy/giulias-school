@@ -15,12 +15,20 @@ body {
   background-color: rgb(224, 238, 142);
 }
 
-.nav-list{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    font-size: 17px;
-    list-style: none
+.nav-list {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: 17px;
+  list-style: none;
+  background-color: rgb(210, 241, 71);
+}
+
+.nav-list li {
+  background-color: rgb(201, 228, 80);
+  border-radius: 8px;
 }
