@@ -3,36 +3,50 @@ body {
   padding: 0px;
 }
 
-.nav-title {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 35px 0px;
-  font-size: 35px;
-  color: rgb(255, 255, 255);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background-color: rgb(21, 90, 136);
-  background-size:100% 100%;
-}
-
 .nav-list {
   margin: 0px;
-  padding:45px 0px;
+  padding:25px 0px;
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  font-size: 17px;
   list-style: none;
   background-image: url(https://images.pexels.com/photos/37487/pexels-photo-37487.jpeg?auto=compress&cs=tinysrgb&w=400);
   background-size: 100% 100%;
 }
 
+.nav-list p{
+  color: aliceblue;
+  font-size: 38px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.nav-list li{
+  color: aliceblue;
+}
+
+.nav-list li :hover{
+  color: chocolate;
+  transition: 0.2s;
+  font-size: large;
+}
+
 .nav-list li a {
   color: rgb(253, 253, 253);
+}
+
+.social {
+  color: rgb(235, 235, 235);
+  font-size: 17px;
+}
+
+.social :hover{
+  color: chocolate;
+  transition: 0.2s;
+  font-size: 22px;
 }
 
 .main-text {
@@ -42,9 +56,12 @@ body {
   font-size: large;
   color: white;
   background-image: url(https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  height: 290px;
+  width: auto;
 }
 
 .main-text h1{
+  margin: 0px;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -52,6 +69,7 @@ body {
 }
 
 .main-text h3{
+  padding: 5px 0px;
   display: flex;
   justify-content: center;
   align-items:center;
@@ -71,7 +89,7 @@ body {
 }
 
 .img-2{
-  float: left;
+  float: right;
   width: 33.33%;
 }
 
