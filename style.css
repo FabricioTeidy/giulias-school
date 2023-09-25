@@ -8,12 +8,12 @@ body {
   padding:25px 0px;
   display: flex;
   width: 100%;
-  justify-content: center;
-  align-items: center;
+  height: 110px;
   gap: 3rem;
   list-style: none;
   background-image: url(https://images.pexels.com/photos/37487/pexels-photo-37487.jpeg?auto=compress&cs=tinysrgb&w=400);
   background-size: 100% 100%;
+  position: relative;
 }
 
 .nav-list p{
@@ -22,6 +22,9 @@ body {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bolder;
   font-style: italic;
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 .nav-list li{
@@ -30,6 +33,10 @@ body {
 
 .nav-list li a{
   color: rgb(255, 255, 255);
+  position: relative;
+  top: 80px;
+  left: 560px;
+  
 }
 
 .nav-list li a:hover{
@@ -37,13 +44,12 @@ body {
 }
 
 .social {
-  color: rgb(235, 235, 235);
-  font-size: 17px;
-}
-
-.social {
   color: rgb(255, 255, 255);
   transition: color 0.2s ease-in-out;
+  font-size: 17px;
+  position: relative;
+  left: 900px;
+  top: 15px;
 }
 
 .social:hover{
@@ -84,9 +90,10 @@ body {
 
 }
 
-.img-1{
+.img{
   float: right;
   width: 33.33%;
+  
 }
 
 .img-2{
